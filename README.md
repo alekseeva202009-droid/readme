@@ -15,7 +15,7 @@ i'm a programmer
 
 
 ## Ссылка на репозиторий преподавателя
-(https://github.com/rurewa/imfua.git)
+https://github.com/rurewa/imfua.git
 
 ## Ссылка на репозиторий с сайтом
 [carprice](https://github.com/alekseeva202009-droid/mysite)
