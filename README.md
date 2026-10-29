@@ -13,6 +13,10 @@ i'm a programmer
 - [Bashscript](/bashscripts.md)
 - [Git](/git.md)
 
+
+## Ссылка на репозиторий преподавателя
+(https://github.com/rurewa/imfua.git)
+
 ## Ссылка на репозиторий с сайтом
 [carprice](https://github.com/alekseeva202009-droid/mysite)
 [сайт](file:///C:/Users/Варя/mysite/index.html)                                      
