@@ -19,7 +19,7 @@ https://github.com/rurewa/imfua.git
 
 ## Ссылка на репозиторий с сайтом
 [репозиторий](https://github.com/alekseeva202009-droid/mysite)
-[сайт](file:///C:/Users/Варя/mysite/index.html)    
+[сайт](https://alekseeva202009-droid.github.io/mysite/)    
 
 ## Ссылка на репозиторий с сайтом (командная работа)
  репозиторий - https://github.com/SiReXu/Cybermfua.git
