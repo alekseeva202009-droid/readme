@@ -18,8 +18,9 @@ i'm a programmer
 https://github.com/rurewa/imfua.git
 
 ## Ссылка на репозиторий с сайтом
-[carprice](https://github.com/alekseeva202009-droid/mysite)
+[репозиторий](https://github.com/alekseeva202009-droid/mysite)
 [сайт](file:///C:/Users/Варя/mysite/index.html)    
 
 ## Ссылка на репозиторий с сайтом (командная работа)
-https://github.com/SiReXu/Cybermfua.git
+[репозиторий]https://github.com/SiReXu/Cybermfua.git
+[сайт] https://sirexu.github.io/Cybermfua/
