@@ -22,5 +22,5 @@ https://github.com/rurewa/imfua.git
 [сайт](file:///C:/Users/Варя/mysite/index.html)    
 
 ## Ссылка на репозиторий с сайтом (командная работа)
-[репозиторий]https://github.com/SiReXu/Cybermfua.git
-[сайт] https://sirexu.github.io/Cybermfua/
+# репозиторий - https://github.com/SiReXu/Cybermfua.git
+# сайт - https://sirexu.github.io/Cybermfua/
