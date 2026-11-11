@@ -95,12 +95,14 @@ docker run -d --name my-nginx -p 80:80 nginx
 docker ps -a
 ```
 
-![Тут нужен скриншот]()
+![Скрин вывода команды docker ps -a](/Docker/Nginx/Screenshot%202026-11-11%20134504.png)
 
 Показать загруженный на ваш компьютер образ
 ```shell
 docker images
 ```
+![Скрин вывода команды docker images](/Docker/Nginx/Screenshot%202026-11-11%20134701.png)
+
 
 Показать работающий Nginx
 
