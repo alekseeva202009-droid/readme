@@ -17,11 +17,11 @@
 docker run -p 3000:3000 ghcr.io/libredb/libredb-studio:latest
 ```
 
-![task 1](/Docker/Nginx/Снимок%20экрана%202026-11-16%20113821.png)
+![task 1](/Docker/LibreDB_Studio/task%201.png)
 
 в консоле вы увидите сгенерированные автоматически e-mail и пароль, которые введёте в Sing In интерфейса приложения в [браузере http://localhost:3000](http://localhost:3000)
 
-![task 2](/Docker/Nginx/Снимок%20экрана%202026-11-16%20113935.png)
+![task 2](/Docker/LibreDB_Studio/task%202.png)
 
 
 или с заданными заранее e-mail и пароль (Git-Bash/Linux)
@@ -47,35 +47,35 @@ docker run -d \
 docker ps -a
 ```
 
-![task 3](/Docker/Nginx/Снимок%20экрана%202026-11-16%20114214.png)
+![task 3](/Docker/LibreDB_Studio/task%203.png)
 
 останавливаем его, если запущен
 ```shell
 docker stop имя_контейнера
 ```
 
-![task 4](/Docker/Nginx/Снимок%20экрана%202026-11-16%20114304.png
+![task 4](/Docker/LibreDB_Studio/task%204.png)
 
 удаляем контейнер
 ```shell
 docker rm имя_контейнера
 ```
 
-![task 5](/Docker/Nginx/Снимок%20экрана%202026-11-16%20114436.png)
+![task 5](/Docker/LibreDB_Studio/task%205.png)
 
 получаем имя образа
 ```shell
 docker images
 ```
 
-![task 6](/Docker/Nginx/Снимок%20экрана%202026-11-16%20114436.png)
+![task 6](/Docker/LibreDB_Studio/task%206.png)
 
 и удаляем
 ```shell
 docker image rm ghcr.io/libredb/libredb-studio:latest
 ```
 
-![task 7](/Docker/Nginx/Снимок%20экрана%202026-11-16%20114453.png)
+![task 7](/Docker/LibreDB_Studio/task%207.png)
 
 ### Полезные ссылки
 

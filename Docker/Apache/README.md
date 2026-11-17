@@ -6,15 +6,15 @@
 
 > Создание проекта лучше начать с "чистого листа", предварительно остановив и удалив все другие контейнеры и образы!
 
-Выполните все этапы работы с проектом по примеру с [Nginx](/content/Docker/ImageLibrary/Nginx.md)
+
 
 Получить образ, создать и запустить контейнер:
 ```shell
 docker run -d --name my-apache -p 8081:80 httpd
 ```
-![task 3](/docker/Nginx/Снимок%20экрана%202026-11-16%20112347.png)
+![task 3](/Docker/Apache/Screenshot%202026-11-17%20220822.png)
 
-![task 1](/Docker/Apache/task%201.png)
+![task 1](/Docker/Apache/Screenshot%202026-11-17%20221233.png)
 
 [Откройте адрес http://localhost:8081 в браузере](http://localhost:8081)
 
@@ -25,7 +25,7 @@ docker run -d --name my-apache -p 8081:80 httpd
 docker exec -it my-apache bash
 ```
 
-![task 4](/Docker/Apache/task%204.png)
+![task 4](/Docker/Apache/Screenshot%202026-11-17%20221554.png)
 
 Установить текстовый редактор командной строки Micro:
 ```shell

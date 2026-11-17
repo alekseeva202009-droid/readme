@@ -2,8 +2,6 @@
 
 Запуск Adminer для управления БД
 
-Выполните все этапы работы с проектом по примеру с [Nginx](/content/Docker/ImageLibrary/Nginx.md)
-
 > Никогда в разработке не используйте русские имена файлов и каталогов!
 
 > Никогда в разработке не используйте пробелы и спец.символы в именах файлов и каталогов!
@@ -21,7 +19,7 @@ docker run -d `
   adminer:latest
 ```
 
-![task 1](/docker/Nginx/Снимок%20экрана%202026-11-16%20113125.png)
+![task 1](/Docker/Admirer/Screenshot%202026-11-17%20215114.png)
 
 Запустите **Adminer** в **Git-Bash/Linux/WSL 2.0/Mac**
 ```shell
@@ -35,7 +33,7 @@ docker run -d \
 
 [Откройте: http://localhost:8084](http://localhost:8084)
 
-![task 3](/docker/Nginx/Снимок%20экрана%202026-11-16%20113250.png)
+![task 3](/Docker/Adminer/task%203.png)
 
 При необходимости можно из этого же образа создать ещё один контейнер:
 ```shell
