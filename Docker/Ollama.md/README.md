@@ -35,7 +35,6 @@ docker exec -it ollama ollama run phi4
 docker run -d -p 3000:8081 -v ollama:/root/.ollama -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:ollama
 ```
 
-![task 1](/Docker/Olama/task%201.png)
 
 [Открыть чат в браузере](http://localhost:3000)
 или
@@ -65,11 +64,8 @@ docker run -d -p 8081:8080 \
 docker exec -it open-webui ollama pull llama3.2:1b
 ```
 
-![task 3](/Docker/Olama/task%203.png)
-
 показать установленные модели:
 ```shell
 docker exec -it open-webui ollama list
 ```
 
-![task 4](/Docker/Olama/task%204.png)
