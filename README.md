@@ -12,7 +12,7 @@ i'm a programmer
 - [Bash CLI](/BASH_CLI.md)
 - [Bashscript](/BASHSCRIPTS.md)
 - [Git](/git.md)
-- [Docker] (/Ngix/README.md)
+- [Docker] (READMEe.md)
 
 
 ## Ссылка на репозиторий преподавателя
