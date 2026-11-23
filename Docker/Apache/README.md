@@ -43,7 +43,6 @@ micro /usr/local/apache2/htdocs/index.html
 
 [Проверьте результат по адрес http://localhost:8081](http://localhost:8081)
 
-![task 2](/Docker/Apache/task%202.png)
 
 Выйти из контейнера:
 ```shell
