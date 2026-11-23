@@ -29,11 +29,9 @@ docker run -d \
   adminer:latest
 ```
 
-![task 2](/Docker/Adminer/task%202.png)
-
 [Откройте: http://localhost:8084](http://localhost:8084)
 
-![task 3](/Docker/Adminer/task%203.png)
+![task 3](/Docker/Admirer/Screenshot%202026-11-23%20093634.png)
 
 При необходимости можно из этого же образа создать ещё один контейнер:
 ```shell
@@ -43,12 +41,8 @@ docker run -d \
   adminer:latest
 ```
 
-![task 5](/Docker/Adminer/task%205.png)
 
 [Откройте: http://localhost:8085](http://localhost:8085)
-
-![task 4](/Docker/Adminer/task%204.png)
-
 
 
 > Без отдельно запущенного контейнера с БД PostgreSQL и связи с ним админ-панель работаеть не будет!
