@@ -47,35 +47,26 @@ docker run -d \
 docker ps -a
 ```
 
-![task 3](/Docker/LibreDB_Studio/task%203.png)
-
 останавливаем его, если запущен
 ```shell
 docker stop имя_контейнера
 ```
 
-![task 4](/Docker/LibreDB_Studio/task%204.png)
 
 удаляем контейнер
 ```shell
 docker rm имя_контейнера
 ```
 
-![task 5](/Docker/LibreDB_Studio/task%205.png)
-
 получаем имя образа
 ```shell
 docker images
 ```
 
-![task 6](/Docker/LibreDB_Studio/task%206.png)
-
 и удаляем
 ```shell
 docker image rm ghcr.io/libredb/libredb-studio:latest
 ```
-
-![task 7](/Docker/LibreDB_Studio/task%207.png)
 
 ### Полезные ссылки
 
