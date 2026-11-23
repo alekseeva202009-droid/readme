@@ -15,11 +15,7 @@ i'm a programmer
 - [Docker](/Docker/Nginx/READMEe.md)
 
 ## Лабы
-- [Admirer](/Docker/Admirer/README.md)
-- [Apache](/Docker/Apache/README.md)
-- [LibreDB_Studio](/Docker/LibreDB_Studio/README.md)
-- [Ollama](/Docker/Ollama.md/README.md)
-- [Static_Apache](/Docker/Static_Apache/README.md)
+- [DocerLabs](/Docker/Labs.md)
 
 
 ## Ссылка на репозиторий преподавателя
