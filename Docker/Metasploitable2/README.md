@@ -23,10 +23,14 @@ Metasploitable2 — специально уязвимая виртуальная
 ```shell
 docker stop $(docker ps -q)
 ```
+![task 1](/Docker/Metasploitable2/Screenshot%202026-11-23%20110102.png)
+
 Удалить все остановленные или не запущенные (Exited, Created) учебные контейнеры:
 ```shell
 docker container prune
 ```
+![task 1](/Docker/Metasploitable2/Screenshot%202026-11-23%20110217.png)
+
 > **Prune** — удаляйте ненужные контейнеры, чтобы не засорять ваш Docker!
 
 Или так удалить все учебные контейнеры (включая запущенные — принудительно):
@@ -58,10 +62,14 @@ docker builder prune -a
 ```shell
 docker pull tleemcjr/metasploitable2
 ```
+![task 1](/Docker/Metasploitable2/Screenshot%202026-11-23%20110507.png)
+
 Cоздать и запустить контейнер, войти в него:
 ```shell
 docker run --name metasploitable2 -it tleemcjr/metasploitable2:latest sh -c "/bin/services.sh && bash"
 ```
+
+![task 1](/Docker/Metasploitable2/Screenshot%202026-11-23%20110656.png)
 
 ### 3. Управление контейнером и его образом
 
@@ -69,6 +77,8 @@ docker run --name metasploitable2 -it tleemcjr/metasploitable2:latest sh -c "/bi
 ```shell
 exit
 ```
+![task 1](/Docker/Metasploitable2/Screenshot%202026-11-23%20110842.png)
+
 Удалить контейнер:
 ```shell
 docker rm metasploitable2
@@ -80,6 +90,5 @@ docker rmi tleemcjr/metasploitable2
 
 [Metasploitable2 на Docker hub](https://hub.docker.com/r/tleemcjr/metasploitable2#!)
 
-**Результат оформить в виде отдельного `README.md` со скриншотами результатов ваших действий и прислать ссылку преподавателю.**
 
 > Если вы обнаружили ошибку в этом тексте - сообщите пожалуйста автору!
