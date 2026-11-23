@@ -42,7 +42,7 @@ micro /usr/local/apache2/htdocs/index.html
 отредайтируйте и сохраните по `Ctrl+S` и выйти из режима редактирования по `Ctrl+Q` или `F10`
 
 [Проверьте результат по адрес http://localhost:8081](http://localhost:8081)
-!()
+
 
 
 Выйти из контейнера:

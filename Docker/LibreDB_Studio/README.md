@@ -17,11 +17,11 @@
 docker run -p 3000:3000 ghcr.io/libredb/libredb-studio:latest
 ```
 
-![task 1](/Docker/LibreDB_Studio/task%201.png)
+![task 1](/Docker/LibreDB_Studio/Screenshot%202026-11-23%20095639.png)
 
 в консоле вы увидите сгенерированные автоматически e-mail и пароль, которые введёте в Sing In интерфейса приложения в [браузере http://localhost:3000](http://localhost:3000)
 
-![task 2](/Docker/LibreDB_Studio/task%202.png)
+![task 2](/Docker/LibreDB_Studio/Screenshot%202026-11-23%20101316.png)
 
 
 или с заданными заранее e-mail и пароль (Git-Bash/Linux)
