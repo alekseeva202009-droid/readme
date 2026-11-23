@@ -16,13 +16,13 @@
 mkdir my-site && cd my-site && touch index.html
 ```
 
-![task 1](/Docker/Static_Apache/task%201.png)
+![task 1](/Docker/Static_Apache/Screenshot%202026-11-23%20111729.png)
 
 ```shell
 echo '<h1>Hello Docker!</h1>' > index.html
 ```
 
-![task 2](/Docker/Static_Apache/task%202.png)
+![task 2](/Docker/Static_Apache/Screenshot%202026-11-23%20112534.png)
 
 > Чтобы в веб-странице поддерживался русский язык, вставьте тэг `<meta charset="UTF-8">`
 
@@ -48,8 +48,6 @@ docker run -d `
   httpd:alpine
 ```
 
-![task 3](/Docker/Static_Apache/task%203.png)
-
 > Если эта команда в Powershell не работает, то удалите из кода апострофы `
 
 для **Git-Bash/Linux/WSL 2.0/Mac**
@@ -60,10 +58,11 @@ docker run -d \
   -v $(pwd):/usr/local/apache2/htdocs \
   httpd:alpine
 ```
+![task 4](/Docker/Static_Apache/Screenshot%202026-11-23%20114342.png)
 
 [Откройте: http://localhost:8081](http://localhost:8081)
 
-![task 4](/Docker/Static_Apache/task%204.png)
+![task 4](/Docker/Static_Apache/Screenshot%202026-11-23%20114423.png)
 
 Для изменения содержимого `index.html` выполните его редайтирование в **VS Code** из папки `my-site` на вашем компьютере (не внутри контейнера!)
 
